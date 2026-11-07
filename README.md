@@ -1,24 +1,84 @@
-# Modelo 2
+# Site Jurídico — Clássico Premium
 
-Implement exactly the screenshot and nothing else
+## 1. Sobre o projeto
 
-This project was built with [Lovable](https://lovable.dev).
+O Clássico Premium é um modelo de site institucional desenvolvido para advogados autônomos e escritórios de advocacia que desejam transmitir tradição, credibilidade, elegância e profissionalismo.
 
-## Build with Lovable
+Seu visual combina elementos clássicos com uma interface moderna, proporcionando uma apresentação profissional e sofisticada.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/23e2a17e-4acb-45e7-a33e-b9661e70cf10).
+## 2. Identidade visual
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+A identidade visual utiliza:
 
-## Development
+- Azul-marinho: transmite confiança e seriedade.
+- Dourado: adiciona sofisticação e elegância.
+- Branco: proporciona clareza e equilíbrio visual.
+- Tipografia serifada nos títulos.
+- Tipografia moderna nos textos.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 3. Estrutura do site
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+O site é composto por cinco seções principais:
+
+1. **Início:** apresentação do advogado ou escritório.
+2. **Sobre:** informações sobre o profissional e sua trajetória.
+3. **Áreas de atuação:** apresentação das áreas jurídicas atendidas.
+4. **Contato:** telefone, WhatsApp, e-mail e endereço.
+5. **Rodapé:** informações institucionais e direitos reservados.
+
+## 4. Personalização
+
+As informações variáveis do projeto devem ficar centralizadas no arquivo:
+
+`src/config/site.ts`
+
+Nesse arquivo podem ser alterados:
+
+- Nome do advogado.
+- Nome do escritório.
+- Número de inscrição na OAB.
+- Telefone e WhatsApp.
+- E-mail.
+- Endereço.
+- Cidade e estado.
+- Biografia.
+- Áreas de atuação.
+- Fotografia profissional.
+- Logotipo.
+- Redes sociais.
+- Informações de SEO.
+
+Não é necessário modificar os componentes visuais para trocar os dados pessoais, desde que o projeto esteja corretamente integrado à configuração.
+
+## 5. Imagens
+
+As imagens do projeto devem ficar organizadas em:
+
+`public/images/`
+
+Arquivos sugeridos:
+- `logo.png`
+- `advogado.jpg`
+- `escritorio.jpg`
+
+## 6. Tecnologias
+
+- React.
+- TypeScript.
+- CSS.
+- Vite.
+- Componentes reutilizáveis.
+
+## 7. Publicação
+
+O projeto pode ser publicado em plataformas como Vercel ou Cloudflare Pages.
+
+Após configurar o domínio e a hospedagem, o site ficará disponível por uma URL pública.
+
+## 8. Observações
+
+As informações profissionais devem ser fornecidas e aprovadas pelo advogado responsável.
+
+O conteúdo deve ser verdadeiro, informativo e adequado às normas de publicidade da advocacia.
+
+**Objetivo do modelo:** transmitir tradição, segurança e sofisticação por meio de uma identidade visual clássica.
